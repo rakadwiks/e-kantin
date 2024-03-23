@@ -1,0 +1,7 @@
+.search-section {
+    width: 48rem;
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+}
