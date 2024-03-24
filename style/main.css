@@ -10772,6 +10772,74 @@ textarea.form-control-lg {
   background: #c22b2b;
 }
 
+.btn-login-auth {
+  width: 28.3rem;
+  height: 2.2rem;
+  background: #1A6189;
+  color: #FFF;
+}
+.btn-login-auth:hover {
+  background: #124d6f;
+  color: #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767.98px) {
+  .btn-login-auth {
+    width: 24.3rem;
+  }
+}
+
+.btn-regis-auth {
+  width: 28.3rem;
+  background: #ececec;
+  color: #423C3F;
+  font-weight: 600;
+  height: 2.2rem;
+}
+.btn-regis-auth:hover {
+  background: #e6e6e6;
+  color: #423C3F;
+}
+@media (max-width: 767.98px) {
+  .btn-regis-auth {
+    width: 24.3rem;
+  }
+}
+
+.btn-auth {
+  width: 28.3rem;
+  height: 2.2rem;
+  background: #1A6189;
+  color: #FFF;
+}
+.btn-auth:hover {
+  background: #124d6f;
+  color: #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767.98px) {
+  .btn-auth {
+    width: 24.3rem;
+  }
+}
+
+.btn-auth-secondary {
+  width: 28.3rem;
+  background: #ececec;
+  color: #423C3F;
+  font-weight: 600;
+  height: 2.2rem;
+}
+.btn-auth-secondary:hover {
+  background: #e6e6e6;
+  color: #423C3F;
+}
+@media (max-width: 767.98px) {
+  .btn-auth-secondary {
+    width: 24.3rem;
+  }
+}
+
 .search-section {
   width: 48rem;
 }
@@ -10781,8 +10849,18 @@ textarea.form-control-lg {
   }
 }
 
+.section-content {
+  margin-top: 8rem;
+  justify-content: center;
+  min-height: 70vh;
+}
+
 body {
   background: #f8f8f8;
+  width: 100%;
+}
+
+.page-section-content {
   width: 100%;
 }
 
