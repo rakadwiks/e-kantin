@@ -79,3 +79,21 @@
 }
 
 // end register
+
+// transaction payment
+.btn-payment {
+    width: 10rem;
+    height: 2.2rem;
+    background: #1A6189;
+    color: #FFF;
+
+    &:hover {
+        background: #124d6f;
+        color: #FFF;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}

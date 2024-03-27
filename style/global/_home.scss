@@ -5,4 +5,28 @@ body {
 
 .page-section-content {
     width: 100%;
+
+    .section-header-transaction {
+        h1 {
+            color: #000;
+            font-weight: bold;
+            margin-bottom: -1rem;
+        }
+
+        .header {
+            margin-top: 8rem;
+
+            img {
+                max-height: 50px;
+            }
+        }
+
+        .transaction-payment {
+            img {
+                max-height: 20rem;
+                margin-top: -2rem;
+            }
+        }
+
+    }
 }

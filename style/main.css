@@ -10840,6 +10840,23 @@ textarea.form-control-lg {
   }
 }
 
+.btn-payment {
+  width: 10rem;
+  height: 2.2rem;
+  background: #1A6189;
+  color: #FFF;
+}
+.btn-payment:hover {
+  background: #124d6f;
+  color: #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767.98px) {
+  .btn-payment {
+    width: 24.3rem;
+  }
+}
+
 .search-section {
   width: 48rem;
 }
@@ -10862,6 +10879,21 @@ body {
 
 .page-section-content {
   width: 100%;
+}
+.page-section-content .section-header-transaction h1, .page-section-content .section-header-transaction .h1 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: -1rem;
+}
+.page-section-content .section-header-transaction .header {
+  margin-top: 8rem;
+}
+.page-section-content .section-header-transaction .header img {
+  max-height: 50px;
+}
+.page-section-content .section-header-transaction .transaction-payment img {
+  max-height: 20rem;
+  margin-top: -2rem;
 }
 
 .navbar-kantin {

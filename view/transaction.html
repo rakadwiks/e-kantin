@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>kantin</title>
+    <title>Transaction</title>
     <link rel="stylesheet" href="/style/main.css">
 </head>
 
@@ -30,9 +30,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kategori</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-sm btn-login" href="/view/login.html">Login</a>
-                    </li>
                     <li class="nav-item dropdown picture-profile">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -47,7 +44,25 @@
         </div>
     </nav>
     <div class="page-section-content">
-
+        <div class="section-header-transaction">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <img src="/images/header-transaction.svg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row text-center mt-5">
+                    <div class="transaction-payment">
+                        <h1>Pilih Pembayaran</h1>
+                        <img src="/images/Transaction.svg" alt="">
+                    </div>
+                    <div class="d-block">
+                        <a href="" type="button" class="btn btn-sm btn-payment"> Cash</a>
+                        <a href="/view/transaction-details.html" type="button" class="btn btn-sm btn-payment"> QRIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
