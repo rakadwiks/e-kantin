@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Transaction Details</title>
     <link rel="stylesheet" href="/style/main.css">
 </head>
 
@@ -44,34 +44,23 @@
         </div>
     </nav>
     <div class="page-section-content">
-        <!-- login -->
-        <div class="section-content">
+        <div class="section-header-transaction">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-5">
-                        <img src="/images/logo-login.svg" alt="">
-                        <form class="row g-3">
-                            <div class="col-md-6">
-                                <label for="email" class="visually-hidden">Email</label>
-                                <input type="text" class="form-control" placeholder="Email" id="email" autofocus>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="password" class="visually-hidden">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password">
-                            </div>
-                            <div class="col-md-10">
-                                <button type="submit" class="btn btn-sm btn-login-auth mb-3">Masuk</button>
-                                <a href="/view/register.html" type="submit"
-                                    class="btn btn-sm btn-regis-auth mb-3">Register</a>
-                            </div>
-                        </form>
+                <div class="row">
+                    <div class="header">
+                        <img src="/images/header-transaction.svg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="row text-center mt-5">
+                    <div class="transaction-payment">
+                        <h1 class="pb-3">Pilih Pembayaran</h1>
+                        <img src="/images/qris.svg" class="pt-5 pb-4" alt="">
+                    </div>
+                    <div class="d-block">
+                        <a href="/view/index.html" type="button" class="btn btn-sm btn-payment"> Selesai</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- end login -->
-        <div class="section-footer">
-            <img src="/images/footer-bg.svg" alt="" width="100%">
         </div>
     </div>
     <script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

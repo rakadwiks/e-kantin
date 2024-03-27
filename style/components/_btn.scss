@@ -5,3 +5,95 @@
         background: #c22b2b;
     }
 }
+
+// login
+.btn-login-auth {
+    width: 28.3rem;
+    height: 2.2rem;
+    background: #1A6189;
+    color: #FFF;
+
+    &:hover {
+        background: #124d6f;
+        color: #FFF;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}
+
+.btn-regis-auth {
+    width: 28.3rem;
+    background: #ececec;
+    color: #423C3F;
+    font-weight: 600;
+    height: 2.2rem;
+
+    &:hover {
+        background: #e6e6e6;
+        color: #423C3F;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}
+
+// end login
+
+// register
+.btn-auth {
+    width: 28.3rem;
+    height: 2.2rem;
+    background: #1A6189;
+    color: #FFF;
+
+    &:hover {
+        background: #124d6f;
+        color: #FFF;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}
+
+.btn-auth-secondary {
+    width: 28.3rem;
+    background: #ececec;
+    color: #423C3F;
+    font-weight: 600;
+    height: 2.2rem;
+
+    &:hover {
+        background: #e6e6e6;
+        color: #423C3F;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}
+
+// end register
+
+// transaction payment
+.btn-payment {
+    width: 10rem;
+    height: 2.2rem;
+    background: #1A6189;
+    color: #FFF;
+
+    &:hover {
+        background: #124d6f;
+        color: #FFF;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+    }
+}
