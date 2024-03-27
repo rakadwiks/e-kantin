@@ -25,6 +25,10 @@ body {
             img {
                 max-height: 20rem;
                 margin-top: -2rem;
+
+                @include media-breakpoint-down(md) {
+                    width: 100%;
+                }
             }
         }
 
