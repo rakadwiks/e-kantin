@@ -10766,10 +10766,14 @@ textarea.form-control-lg {
   }
 }
 .btn-login {
-  background: #FF4343;
+  background: #1A6189;
+  border: 1px solid #FFF;
+  margin: 0px 10px 10px 10px;
 }
 .btn-login:hover {
-  background: #c22b2b;
+  background: #124d6f;
+  border: 1px solid #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-login-auth {
@@ -10894,6 +10898,11 @@ body {
 .page-section-content .section-header-transaction .transaction-payment img {
   max-height: 20rem;
   margin-top: -2rem;
+}
+@media (max-width: 767.98px) {
+  .page-section-content .section-header-transaction .transaction-payment img {
+    width: 100%;
+  }
 }
 
 .navbar-kantin {
