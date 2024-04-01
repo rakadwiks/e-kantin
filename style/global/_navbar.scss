@@ -3,13 +3,26 @@
 
     .nav-item {
         .nav-link {
+            font-size: small;
             color: #fff;
             margin-bottom: -10px;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 10px;
+            }
         }
     }
 
+    .navbar-brand {
+        img {
+            max-height: 40px;
+        }
+    }
 
     .picture-profile {
-        max-height: 45px;
+        img {
+            max-height: 35px;
+            margin-top: -8px;
+        }
     }
 }
