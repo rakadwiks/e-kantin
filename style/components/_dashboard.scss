@@ -36,7 +36,3 @@
         color: #423C3F;
     }
 }
-
-@include media-breakpoint-down(lg) {
-    z-index: -99;
-}
