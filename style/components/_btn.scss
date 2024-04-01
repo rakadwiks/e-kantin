@@ -13,7 +13,6 @@
 // login
 .btn-login-auth {
     width: 28.3rem;
-    height: 2.2rem;
     background: #1A6189;
     color: #FFF;
 
@@ -50,7 +49,6 @@
 // register
 .btn-auth {
     width: 28.3rem;
-    height: 2.2rem;
     background: #1A6189;
     color: #FFF;
 
@@ -87,7 +85,6 @@
 // transaction payment
 .btn-payment {
     width: 10rem;
-    height: 2.2rem;
     background: #1A6189;
     color: #FFF;
 
@@ -99,5 +96,22 @@
 
     @include media-breakpoint-down(md) {
         width: 24.3rem;
+    }
+}
+
+// transaction print
+.btn-print {
+    background: #D1A254;
+    color: #FFF;
+
+    &:hover {
+        background: #9d773c;
+        color: #FFF;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 24.3rem;
+        margin-top: 0.5rem;
     }
 }
