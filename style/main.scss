@@ -1,5 +1,5 @@
 @import "../vendor/bootstrap/scss/bootstrap.scss";
-@import "../vendor/twbs/bootstrap-icons/font/bootstrap-icons.scss";
+
 
 
 // components
@@ -7,6 +7,8 @@
 @import "components/card";
 @import "components/search";
 @import "components/auth";
+@import "components/sidebar";
+@import "components/dashboard";
 
 // global
 @import "global/home";

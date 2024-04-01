@@ -19160,6 +19160,105 @@ textarea.form-control-lg {
   min-height: 70vh;
 }
 
+.sidebar-dashboard {
+  background-color: #1A6189;
+  width: 250px;
+  height: 110vh;
+  padding: 10px;
+  position: fixed;
+  margin-top: -50px;
+}
+@media (max-width: 991.98px) {
+  .sidebar-dashboard {
+    visibility: hidden !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .sidebar-dashboard .offcanvas-lg {
+    visibility: visible !important;
+    z-index: 9999999 !important;
+  }
+}
+.sidebar-dashboard .body-list ul .nav-item {
+  color: #C5C5C5;
+  margin-top: 1rem;
+  padding: 5px 10px;
+}
+.sidebar-dashboard .body-list ul .active {
+  color: #fff;
+  width: 200px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.3);
+  border-right: 4px solid #fff;
+}
+@media (max-width: 767.98px) {
+  .sidebar-dashboard .body-list ul {
+    z-index: 99;
+    background: #fff;
+  }
+}
+
+.nav-tabs {
+  z-index: -99;
+  padding-right: 10px;
+}
+@media (max-width: 767.98px) {
+  .nav-tabs {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    background: #fff;
+  }
+}
+.nav-tabs img {
+  max-height: 32px;
+}
+.nav-tabs .nav-item-menu .nav-link {
+  margin-right: 70rem;
+  color: #b82828 !important;
+  visibility: hidden !important;
+}
+@media (max-width: 767.98px) {
+  .nav-tabs .nav-item-menu .nav-link {
+    visibility: visible !important;
+    margin-right: 15rem;
+    font-size: small;
+  }
+}
+
+.card-one {
+  background-color: rgba(255, 184, 0, 0.3);
+  padding: 10px;
+}
+.card-one .card-title {
+  color: #0C0D36;
+}
+.card-one .card-text {
+  color: #423C3F;
+}
+
+.card-two {
+  background-color: rgba(255, 67, 67, 0.3);
+  padding: 10px;
+}
+.card-two .card-title {
+  color: #0C0D36;
+}
+.card-two .card-text {
+  color: #423C3F;
+}
+
+.card-tree {
+  background-color: rgba(14, 186, 160, 0.3);
+  padding: 10px;
+}
+.card-tree .card-title {
+  color: #0C0D36;
+}
+.card-tree .card-text {
+  color: #423C3F;
+}
+
 body {
   background: #f8f8f8;
   width: 100%;
@@ -19188,6 +19287,14 @@ body {
     width: 100%;
   }
 }
+.page-section-content .section-header-dashboard {
+  margin-left: 16rem;
+}
+@media (max-width: 767.98px) {
+  .page-section-content .section-header-dashboard {
+    margin-left: 0;
+  }
+}
 
 .navbar-kantin {
   background: #1A6189;
@@ -19197,5 +19304,16 @@ body {
   margin-bottom: -10px;
 }
 .navbar-kantin .picture-profile {
+  max-height: 45px;
+}
+
+.navbar-kantin-dashboard {
+  background: #1A6189;
+}
+.navbar-kantin-dashboard .nav-item .nav-link {
+  color: #fff;
+  margin-bottom: -10px;
+}
+.navbar-kantin-dashboard .picture-profile {
   max-height: 45px;
 }/*# sourceMappingURL=main.css.map */
