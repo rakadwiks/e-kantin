@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Dashboard Produk</title>
+    <link rel="stylesheet" href="/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="/style/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page-dashboard">
+        <div class="d-flex" id="wrapper" data-aos="fade-right">
+            <!-- Sidebar -->
+            <div class="border-right" id="sidebar-wrapper">
+                <div class="sidebar-heading text-center">
+                    <img src="/images/avatar.png" alt="" class="my-4" />
+                </div>
+                <div class="list-group list-group-flush">
+                    <a href="/view/dashboard.html"
+                        class="list-group-item list-group-item-action active bi bi-pie-chart-fill"> Dashboard</a>
+                    <a href="/view/dashboard-produk.html"
+                        class="list-group-item list-group-item-action bi bi-box-seam-fill "> Produk</a>
+                    <a href="" class="list-group-item list-group-item-action bi bi-credit-card-fill"> Transaksi</a>
+                    <a href="" class="list-group-item list-group-item-action bi bi-person-fill-gear"> Akun</a>
+                </div>
+            </div>
+            <!-- end sidebar -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <ul class="nav nav-tabs justify-content-end">
+                    <li class="nav-item  nav-item-menu">
+                        <a class="nav-link bi bi-three-dots" id="menu-toggle"> Menu</a>
+                    </li>
+                    <li class="nav-item dropdown nav-item-link">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><img src="/images/avatar.png" alt=""></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/view/index.html">Beranda Kantin</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/view/index.html">Kelular</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="section-content section-dashboard-home" data-aos="fade-up">
+                    <div class="container-fluid">
+                        <div class="dashboard-heading">
+                            <h2 class="dashboard-title">Produk</h2>
+                            <p class="dashboard-subtitle">
+                                Look what you have made today!
+                            </p>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="row">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>
