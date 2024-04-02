@@ -1,7 +1,13 @@
+// navbar
 .btn-login {
     background: #2588c1;
-    padding: 4px;
+    color: #FFF;
+    padding: 5px 8px;
     margin-top: 5px;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #124d6f;
@@ -9,11 +15,18 @@
     }
 }
 
-// login
+// end navbar
+
+// page login
 .btn-login-auth {
     width: 28.3rem;
     background: #1A6189;
     color: #FFF;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #124d6f;
@@ -32,6 +45,11 @@
     color: #423C3F;
     font-weight: 600;
     height: 2.2rem;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #e6e6e6;
@@ -45,11 +63,16 @@
 
 // end login
 
-// register
+// page register
 .btn-auth {
     width: 28.3rem;
     background: #1A6189;
     color: #FFF;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #124d6f;
@@ -68,6 +91,11 @@
     color: #423C3F;
     font-weight: 600;
     height: 2.2rem;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #e6e6e6;
@@ -81,11 +109,16 @@
 
 // end register
 
-// transaction payment
+// page transaction payment
 .btn-payment {
     width: 10rem;
     background: #1A6189;
     color: #FFF;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #124d6f;
@@ -102,6 +135,11 @@
 .btn-print {
     background: #D1A254;
     color: #FFF;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
 
     &:hover {
         background: #9d773c;
@@ -115,6 +153,7 @@
     }
 }
 
+// --- Dashboard --- //
 // transaction card
 .btn-footer {
     padding-top: 3rem;
@@ -128,6 +167,11 @@
     .btn-edit {
         background: rgba(255, 184, 0, 0.3);
         color: #ffb800;
+        border: none;
+        display: inline-block;
+        padding: 5px 8px;
+        border-radius: 4px;
+        text-decoration: none;
 
         &:hover {
             background: #ffb800;
@@ -139,6 +183,11 @@
     .btn-delete {
         background: rgba(255, 67, 67, 0.3);
         color: #FF4343;
+        border: none;
+        display: inline-block;
+        padding: 5px 8px;
+        border-radius: 4px;
+        text-decoration: none;
 
         &:hover {
             background: #FF4343;
@@ -147,3 +196,21 @@
         }
     }
 }
+
+// transaction add
+.btn-add {
+    background: #0DA867;
+    color: #FFF;
+    border: none;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+
+    &:hover {
+        background: #0a7d4d;
+        color: #FFF;
+    }
+}
+
+// --- end Dashboard --- //

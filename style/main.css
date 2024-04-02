@@ -10767,8 +10767,13 @@ textarea.form-control-lg {
 }
 .btn-login {
   background: #2588c1;
-  padding: 4px;
+  color: #FFF;
+  padding: 5px 8px;
   margin-top: 5px;
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-login:hover {
   background: #124d6f;
@@ -10779,6 +10784,11 @@ textarea.form-control-lg {
   width: 28.3rem;
   background: #1A6189;
   color: #FFF;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-login-auth:hover {
   background: #124d6f;
@@ -10797,6 +10807,11 @@ textarea.form-control-lg {
   color: #423C3F;
   font-weight: 600;
   height: 2.2rem;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-regis-auth:hover {
   background: #e6e6e6;
@@ -10812,6 +10827,11 @@ textarea.form-control-lg {
   width: 28.3rem;
   background: #1A6189;
   color: #FFF;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-auth:hover {
   background: #124d6f;
@@ -10830,6 +10850,11 @@ textarea.form-control-lg {
   color: #423C3F;
   font-weight: 600;
   height: 2.2rem;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-auth-secondary:hover {
   background: #e6e6e6;
@@ -10845,6 +10870,11 @@ textarea.form-control-lg {
   width: 10rem;
   background: #1A6189;
   color: #FFF;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-payment:hover {
   background: #124d6f;
@@ -10860,6 +10890,11 @@ textarea.form-control-lg {
 .btn-print {
   background: #D1A254;
   color: #FFF;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-print:hover {
   background: #9d773c;
@@ -10885,6 +10920,11 @@ textarea.form-control-lg {
 .btn-footer .btn-edit {
   background: rgba(255, 184, 0, 0.3);
   color: #ffb800;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-footer .btn-edit:hover {
   background: #ffb800;
@@ -10894,11 +10934,30 @@ textarea.form-control-lg {
 .btn-footer .btn-delete {
   background: rgba(255, 67, 67, 0.3);
   color: #FF4343;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 .btn-footer .btn-delete:hover {
   background: #FF4343;
   color: #FFF;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-add {
+  background: #0DA867;
+  color: #FFF;
+  border: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-add:hover {
+  background: #0a7d4d;
+  color: #FFF;
 }
 
 .transaction-cash {
@@ -11061,7 +11120,8 @@ body {
   background: #1A6189;
   position: fixed;
   margin-top: -50px;
-  height: 100%;
+  min-height: 100%;
+  height: 100vh;
   margin-left: -20rem;
   z-index: 99;
   transition: margin 0.25s ease-out;
