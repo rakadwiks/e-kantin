@@ -1,6 +1,5 @@
 .page-dashboard {
     #page-content-wrapper {
-        background: #f5f5fb;
         min-width: 100%;
         margin-left: 15rem;
 
@@ -13,7 +12,7 @@
         background: #1A6189;
         position: fixed;
         margin-top: -50px;
-        height: 100vh;
+        height: 100%;
         margin-left: -20rem;
         z-index: 99;
         transition: margin 0.25s ease-out;

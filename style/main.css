@@ -10873,6 +10873,34 @@ textarea.form-control-lg {
   }
 }
 
+.btn-footer {
+  padding-top: 3rem;
+}
+@media (max-width: 767.98px) {
+  .btn-footer {
+    padding-left: 15rem;
+    margin-top: -5rem !important;
+  }
+}
+.btn-footer .btn-edit {
+  background: rgba(255, 184, 0, 0.3);
+  color: #ffb800;
+}
+.btn-footer .btn-edit:hover {
+  background: #ffb800;
+  color: #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-footer .btn-delete {
+  background: rgba(255, 67, 67, 0.3);
+  color: #FF4343;
+}
+.btn-footer .btn-delete:hover {
+  background: #FF4343;
+  color: #FFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .transaction-cash {
   z-index: 99;
 }
@@ -10919,6 +10947,14 @@ textarea.form-control-lg {
   }
 }
 
+.card {
+  border: none;
+  background: #FEFEFE;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
 .search-section {
   width: 100%;
 }
@@ -10932,6 +10968,26 @@ textarea.form-control-lg {
   margin-top: 8rem;
   justify-content: center;
   min-height: 70vh;
+}
+
+.buka {
+  background: rgba(255, 139, 2, 0.3);
+  color: #EE8100;
+}
+
+.tutup {
+  background: #F1F1F8;
+  color: #1A6189;
+}
+
+.habis {
+  background: rgba(45, 158, 221, 0.3);
+  color: #1A6189;
+}
+
+.diskon {
+  background: rgba(126, 232, 61, 0.3);
+  color: #499719;
 }
 
 body {
@@ -10993,7 +11049,6 @@ body {
 }
 
 .page-dashboard #page-content-wrapper {
-  background: #f5f5fb;
   min-width: 100%;
   margin-left: 15rem;
 }
@@ -11006,7 +11061,7 @@ body {
   background: #1A6189;
   position: fixed;
   margin-top: -50px;
-  height: 100vh;
+  height: 100%;
   margin-left: -20rem;
   z-index: 99;
   transition: margin 0.25s ease-out;

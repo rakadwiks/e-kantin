@@ -114,3 +114,36 @@
         margin-top: 0.5rem;
     }
 }
+
+// transaction card
+.btn-footer {
+    padding-top: 3rem;
+
+    @include media-breakpoint-down(md) {
+        padding-left: 15rem;
+        margin-top: -5rem !important;
+
+    }
+
+    .btn-edit {
+        background: rgba(255, 184, 0, 0.3);
+        color: #ffb800;
+
+        &:hover {
+            background: #ffb800;
+            color: #FFF;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    .btn-delete {
+        background: rgba(255, 67, 67, 0.3);
+        color: #FF4343;
+
+        &:hover {
+            background: #FF4343;
+            color: #FFF;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
